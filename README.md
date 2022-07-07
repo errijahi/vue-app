@@ -1,2 +1,24 @@
-# vue-app
-This is project build for udemy course. Main goal is to be able to add, edit and delete coaches, and also to enable users to find and contact coaches. Also to be able to register and login.
+# reallapp
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
