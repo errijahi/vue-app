@@ -15,10 +15,10 @@ export default{
     },
     async auth(context, payload){
             const mode = payload.mode;
-            let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=process.env.API_URL';
+            let url = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=key';
 
             if(mode === 'signup') {
-                url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=process.env.API_URL';
+                url = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=key';
             }
 
             const response = await fetch(url, {
